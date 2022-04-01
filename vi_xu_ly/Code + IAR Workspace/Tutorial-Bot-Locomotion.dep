@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>3249360372</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Source\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\motor.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430g2553.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Source\motor.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\motor.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\motor.pbi</file>
+            <file>$PROJ_DIR$\Source\motor.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\Tutorial-Bot-Locomotion.d43</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Tutorial-Bot-Locomotion.ulp</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Tutorial-Bot-Locomotion.pbd</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\Source\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12 10 3 5</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Source\motor.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5 10 3 12</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Tutorial-Bot-Locomotion.d43</name>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 2 13 6 14</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 9</file>
+                </tool>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
